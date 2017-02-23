@@ -10,5 +10,5 @@ it('renders without crashing', () => {
 
 it('be able to get tweets', () => {
   const wrapper = shallow(<App />);
-  wrapper.instance().
+  wrapper.instance().save(0);
 });
